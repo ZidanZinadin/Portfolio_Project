@@ -380,7 +380,7 @@ form .btn2{
 
 /* Contact Ends*/
 
-/* css for small screen */
+/* css for small screen starts */
 
 nav .fas{
   display: none;
@@ -451,3 +451,5 @@ nav ul{
   margin-top: -40px;
   display: block;
 }
+
+/* css for small screen ends */
