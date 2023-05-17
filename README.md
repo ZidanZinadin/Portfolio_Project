@@ -40,5 +40,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-For any inquiries or feedback, please contact [Zinadin Zidan](mailto:zzinadin08@gmail.com).
+For any inquiries or feedback, please contact [Zinadin Zidan](mailto:zzinadin10@gmail.com).
 
