@@ -298,6 +298,13 @@ nav ul li a:hover::after{
 
 /* Portfolio Ends */
 
+/* Portfolio See more */
+
+.work.additional {
+  display: none;
+}
+
+
 /* Contact Starts */
 
 .contact-left{
