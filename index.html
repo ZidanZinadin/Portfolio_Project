@@ -285,6 +285,8 @@
     }
   </script>
 
+  <!-- Contacts -->
+
   <script>
     const scriptURL = 'https://script.google.com/macros/s/AKfycbxJJETwb__O-DLZTzFuDoafIvWBoyw_4iPduR2Pnhn2GKSM7OSTDzEwXMuAJrNCc_Vt/exec'
     const form = document.forms['submit-to-google-sheet']
@@ -303,6 +305,27 @@
         .catch(error => console.error('Error!', error.message))
     })
   </script>
+
+  <!-- Portfolio See more-->
+
+  <Script>
+
+    document.addEventListener("DOMContentLoaded", function () {
+      var seeMoreBtn = document.getElementById("see-more");
+      var additionalWorks = document.querySelectorAll(".work.additional");
+
+      seeMoreBtn.addEventListener("click", function (event) {
+        event.preventDefault();
+        seeMoreBtn.style.display = "none";
+
+        for (var i = 0; i < additionalWorks.length; i++) {
+          additionalWorks[i].style.display = "block";
+        }
+      });
+    });
+
+
+  </Script>
 
 
   <!-- To Own Mail
